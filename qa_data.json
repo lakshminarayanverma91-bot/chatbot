@@ -1,0 +1,78 @@
+[
+  {
+    "tag":"greeting",
+    "patterns": ["hi", "hello", "Good Morning","aur"],
+    "responses_english": [
+      "Hello! How can I help you today?",
+      "Hi there! Feel free to ask me anything.",
+      "Hey Buddy! I am here to assist you."
+    ],
+    "responses_hinglish": ["Hi Bhai, Mai mast hu, tu kaisa Hai?\nAaj toh badi chamak raha hai, moisturizer lagaya hai kya?\n\nAaj tereko kya samasya aa gayi?"]
+  },
+  {
+    "tag": "name",
+    "patterns": [
+      "what is your name",
+      "who are you",
+      "tumhara naam kya hai"
+    ],
+    "responses_english": [
+      "I'm Laxmi's Bot.",
+      "You can call me Laxmi's Bot."
+    ],
+    "responses_hinglish": [
+      "Mai Laxmi ka banaya hua Bot hu"
+    ]
+  },
+  {
+    "tag": "age",
+    "patterns": [
+      "how old are you",
+      "your age",
+      "tum kitne saal ke ho",
+      "tumhari age kya hai"
+    ],
+    "responses_english": [
+      "I don't have a real age.",
+      "I am just a program, so I don't age."
+    ],
+    "responses_hinglish": [
+      "Meri koi real age nahi hai 😄",
+      "Main ek program hoon, meri age nahi hoti."
+    ]
+  },
+  {
+    "tag":"About",
+    "patterns":[
+      "apne baare me batao",
+      "tell about yourself",
+      "tum kya karte ho"
+    ],
+    "responses_english":[
+      "I am a simple chatbot created using Python and Natural Language Processing.",
+      "The chatbot uses NLP techniques to understand user queries."
+    ],
+    "responses_hinglish": ["Mai ek simple chatbot hu jise NLP ka use karke banaya gaya hai"]
+  },
+  {
+    "tag":"Python",
+    "patterns":[
+      "What is Python",
+      "Python kya hai",
+      "Python kisne banaya tha",
+      "Who had developed Python"
+    ],
+    "responses_english":["\nPython is a high-level, interpreted, and easy-to-learn programming language.\nIt is widely used for web development, data science, artificial intelligence, automation, game development, and more.\n\nPython was invented by Guido van Rossum in 1991.\n\n--->Why is Python popular?\n1. Simple and readable syntax (easy for beginners)\n2. Open-source and free\n3. Large community support\n4. Huge number of libraries (like NumPy, Pandas, Django)\n\n--->Key Features\n1. Object-Oriented Programming (OOP)\n2. Platform independent\n3. Dynamically typed\n4. Interpreted language"],
+    "responses_hinglish":["\nPython ek high-level, interpreted aur easy-to-learn programming language hai.\nIska use web development, data science, artificial intelligence, automation, game development, aur bahut kuch chizo me kiya jaata hai.\n\nPython ko Guido van Rossum ne 1991 me invent kiya tha.\n\n--->Python itna popular kyu hai?\n1. Simple aur readable syntax (beginners ke liye easy)\n2. Open-source aur free hai\n3. Large community support milta hai\n4. Bahut saari libraries available hain (jaise NumPy, Pandas, Django)\n\n--->Key Features\n1. Object-Oriented Programming (OOP) support karta hai\n2. Platform independent hai\n3. Dynamically typed hai\n4. Interpreted language hai"]
+  },
+  {
+    "tag":"CDZ",
+    "patterns":[
+      "CDZ kya hai",
+      "CDZ kis bala ka naam hai",
+      "What is CDZ",
+      "CDZ karta kya hai"
+    ],
+    "responses_english":["\nCDZ that stands for 'Cyber Defence Zone' is a service based company\nthat provide internships and professional training in various fields such as\nCyber Security, Web Development, App Development, Digital Marketing and many more.\n\nMEET THE TEAM\nDev Verma --> Founder\nDurgesh Singh Rajput --> Tech Team Head\nAditya Kumar Singh --> Marketing Head\nJagriti Grover --> PR Head\nPriyanjali Grover --> Content Head"]
+  }
+]
