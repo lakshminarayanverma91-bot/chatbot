@@ -43,7 +43,6 @@ It is designed to be easy to understand and beginner-friendly.
 ### 1️⃣ Clone the Repository
 
 git clone https://github.com/lakshminarayanverma91-bot/chatbot
-chatbot
 
 ### 2️⃣ Install Required Libraries
 
